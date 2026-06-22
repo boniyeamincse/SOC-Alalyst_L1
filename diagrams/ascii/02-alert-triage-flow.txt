@@ -1,0 +1,48 @@
+┌─────────────────────────────────────────────────────────────────┐
+│           ALERT TRIAGE & DECISION FLOW (L1 Process)             │
+└─────────────────────────────────────────────────────────────────┘
+
+                    ┌──────────────────┐
+                    │ ALERT RECEIVED   │
+                    │ (from SIEM/EDR)  │
+                    └────────┬─────────┘
+                             │
+                    ┌────────▼────────┐
+                    │  STEP 1: TRIAGE │ (2 min)
+                    │ Verify alert is │
+                    │   real/accurate │
+                    └────────┬────────┘
+                             │
+                    ┌────────▼────────────────┐
+              YES /│ Alert looks             │\ NO
+                   │ legit? Real threat?     │
+                   └────────┬────────────────┘
+                            │
+         ┌──────────────────┴──────────────────┐
+         │                                     │
+    ┌────▼─────────┐              ┌───────────▼──┐
+    │ STEP 2: Quick│              │ CLOSE ALERT  │
+    │ Investigation│              │ (False Pos)  │
+    │ (8-12 min)   │              └──────────────┘
+    └────┬─────────┘
+         │
+    ┌────▼──────────────┐
+    │ Gather Evidence:  │
+    │ • Enrichment      │
+    │ • Correlation     │
+    │ • Analysis        │
+    └────┬──────────────┘
+         │
+    ┌────▼──────────────────────┐
+    │ STEP 3: VERDICT DECISION  │
+    │                           │
+    │ TP? FP? Benign? Suspicious?
+    └────┬──────────┬─────┬──────┘
+         │          │     │
+    ┌────▼─┐  ┌─────▼──┐ ┌─▼──────────┐
+    │CLOSE │  │CLOSE   │ │ ESCALATE   │
+    │(FP)  │  │(BENIGN)│ │ TO L2      │
+    └──────┘  └────────┘ └────────────┘
+
+TIME BUDGET: 15 minutes max per alert
+

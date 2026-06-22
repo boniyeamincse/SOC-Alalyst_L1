@@ -1,0 +1,51 @@
+┌─────────────────────────────────────────────────────────────────┐
+│            ESCALATION WORKFLOW & DECISION PROCESS               │
+└─────────────────────────────────────────────────────────────────┘
+
+L1 DECISION POINT:
+                    ┌─────────────────────┐
+                    │ Close or Escalate?  │
+                    └────────┬────────────┘
+                             │
+                ┌────────────┼────────────┐
+                │            │            │
+           ┌────▼─┐   ┌──────▼──┐   ┌────▼────┐
+           │CLOSE │   │UNCERTAIN│   │ESCALATE │
+           └──────┘   └─────┬───┘   └────┬────┘
+                            │            │
+                       ┌────▼────┐  ┌────▼──────┐
+                       │ESCALATE │  │Create     │
+                       │to L2    │  │Ticket     │
+                       └────┬────┘  │with:      │
+                            │       │• Summary  │
+                            │       │• Evidence │
+                            │       │• Context  │
+                            └───┬───┴───────────┘
+                                │
+L2 DECISION POINT:         ┌────▼────────────┐
+                           │ L2 Receives:    │
+                           │ • Alert ticket  │
+                           │ • L1 findings   │
+                           │ • All evidence  │
+                           └────┬───────────┘
+                                │
+                    ┌───────────┬┴────────────┐
+                    │           │            │
+              ┌─────▼──┐   ┌────▼────┐  ┌───▼──────┐
+              │CLOSE   │   │FURTHER  │  │ESCALATE  │
+              │ALERT   │   │INVEST.  │  │TO L3/IR  │
+              │(Verify │   │(Complex)│  │(Incident)│
+              │verdict)│   └────┬────┘  └──────────┘
+              └────────┘        │
+                           ┌────▼─────────┐
+                           │ May escalate │
+                           │ to L3        │
+                           │ (Forensics,  │
+                           │  Analysis)   │
+                           └──────────────┘
+
+ESCALATION LEVELS:
+• L1 → L2: Suspicious/complex cases
+• L2 → L3: Technical expertise needed
+• L2 → IR: Confirmed incident
+

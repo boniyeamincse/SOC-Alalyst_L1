@@ -1,0 +1,77 @@
+┌─────────────────────────────────────────────────────────────────┐
+│           EVENT → LOG → ALERT TRANSFORMATION FLOW               │
+└─────────────────────────────────────────────────────────────────┘
+
+STAGE 1: RAW EVENTS
+┌───────────────────┐
+│ Raw Events        │
+├───────────────────┤
+│ • User login      │
+│ • File access     │
+│ • Network traffic │
+│ • Process exec    │
+└──────────┬────────┘
+           │
+STAGE 2: COLLECTION & PARSING
+           │
+    ┌──────▼──────────┐
+    │ Log Collection  │
+    │ from:           │
+    │ • Windows Event │
+    │ • Syslog        │
+    │ • Firewall      │
+    │ • EDR           │
+    │ • App logs      │
+    └──────┬──────────┘
+           │
+STAGE 3: NORMALIZATION
+           │
+    ┌──────▼──────────┐
+    │ SIEM:           │
+    │ • Parse fields  │
+    │ • Normalize     │
+    │ • Index         │
+    │ • Correlate     │
+    └──────┬──────────┘
+           │
+STAGE 4: RULES & DETECTION
+           │
+    ┌──────▼──────────────────┐
+    │ Detection Rules:        │
+    │ IF (conditions met)     │
+    │ THEN trigger alert      │
+    │                         │
+    │ Examples:               │
+    │ • 5 failed logins/min   │
+    │ • Malware hash match    │
+    │ • Suspicious command    │
+    └──────┬──────────────────┘
+           │
+STAGE 5: ALERT GENERATION
+           │
+    ┌──────▼──────────────┐
+    │ ALERT CREATED       │
+    │ Properties:         │
+    │ • ID                │
+    │ • Name              │
+    │ • Severity          │
+    │ • Timestamp         │
+    │ • User              │
+    │ • System            │
+    │ • Evidence fields   │
+    └──────┬──────────────┘
+           │
+STAGE 6: QUEUING & ASSIGNMENT
+           │
+    ┌──────▼──────────────┐
+    │ Alert Queue         │
+    │ (SOC Console)       │
+    │                     │
+    │ L1 Picks Up Alert   │
+    └─────────────────────┘
+
+TIMELINE:
+Events: Real-time (immediate)
+Logs: 1-5 min latency
+Alerts: 5-30 min latency (depends on rule)
+

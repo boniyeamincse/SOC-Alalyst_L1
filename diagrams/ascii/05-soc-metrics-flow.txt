@@ -1,0 +1,67 @@
+┌─────────────────────────────────────────────────────────────────┐
+│              SOC METRICS TRACKING & REPORTING FLOW              │
+└─────────────────────────────────────────────────────────────────┘
+
+DAILY OPERATIONS
+    │
+    ├─ Alerts received ──────┐
+    ├─ Alerts investigated ──┼─► COLLECTION
+    ├─ Alerts closed ────────┤
+    ├─ Alerts escalated ─────┘
+    │
+    ▼
+┌─────────────────────────┐
+│ METRIC CALCULATION      │
+├─────────────────────────┤
+│ Alert Volume:           │
+│  Total alerts/day       │
+│                         │
+│ False Positive Rate:    │
+│  (FP alerts / Total) %  │
+│                         │
+│ Escalation Rate:        │
+│  (Escalated / Total) %  │
+│                         │
+│ Response Times:         │
+│  MTTA (ack time)        │
+│  MTTD (triage time)     │
+│  MTTR (response time)   │
+│                         │
+│ Detection Rate:         │
+│  Threats found / actual │
+│                         │
+│ SLA Compliance:         │
+│  Alerts on-time %       │
+└────────────┬────────────┘
+             │
+    ┌────────▼────────┐
+    │ DASHBOARDS      │
+    │ • Real-time     │
+    │ • Daily summary │
+    │ • Weekly report │
+    │ • Monthly trend │
+    └────────┬────────┘
+             │
+    ┌────────▼──────────────┐
+    │ EXECUTIVE REPORTING   │
+    │ • Trends              │
+    │ • Achievements        │
+    │ • Issues              │
+    │ • Resource needs      │
+    └─────────────────────┘
+
+SAMPLE METRICS:
+
+Daily:
+  • Alerts: 300
+  • Closed: 285 (95%)
+  • Escalated: 15 (5%)
+  • FP rate: 8%
+  • Avg time: 12 min
+
+Monthly Trend:
+  • Alert volume: 7,200
+  • FP rate: 8.2% (↓ from 8.5%)
+  • Detection: 94% (↑ from 92%)
+  • SLA compliance: 96% (↑ from 94%)
+

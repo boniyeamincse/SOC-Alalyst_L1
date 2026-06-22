@@ -1,0 +1,57 @@
+┌─────────────────────────────────────────────────────────────────┐
+│              SOC TEAM STRUCTURE & HIERARCHY                     │
+└─────────────────────────────────────────────────────────────────┘
+
+                         ┌──────────────┐
+                         │ CISO / VP Sec│
+                         └──────┬───────┘
+                                │
+                         ┌──────▼──────────┐
+                         │  SOC Manager    │
+                         │ (Leadership)    │
+                         └──────┬──────────┘
+                                │
+         ┌──────────────────────┼────────────────────┐
+         │                      │                    │
+    ┌────▼────┐         ┌──────▼──────┐       ┌─────▼────┐
+    │  L1 Team │         │  L2 Team    │       │ L3 Team  │
+    │(Analysts)│         │(Specialists)│       │(Engineers)
+    └────┬────┘         └──────┬──────┘       └─────┬────┘
+         │                      │                    │
+  ┌─ L1 Analyst 1    ┌─ L2 Analyst 1   ┌─ L3 Engineer 1
+  ├─ L1 Analyst 2    ├─ L2 Analyst 2   ├─ L3 Engineer 2
+  ├─ L1 Analyst 3    ├─ L2 Lead        └─ Detection Engineering
+  └─ L1 Lead         └─ Escalation Lead
+
+                         ┌──────────────┐
+                         │ IR Team      │
+                         │ (Incident    │
+                         │  Response)   │
+                         └──────────────┘
+
+RESPONSIBILITIES:
+
+L1 (Initial Response):
+  • Alert triage & investigation
+  • Quick verdict (FP vs TP)
+  • Escalation to L2 if needed
+  • SLA: Alert handling < 20 min
+
+L2 (Investigation & Analysis):
+  • Complex investigations
+  • Final verdict on escalations
+  • Incident confirmation
+  • Escalation to L3/IR if needed
+
+L3 (Engineering):
+  • Detection rule development
+  • Malware analysis
+  • Tool customization
+  • Investigation methodology
+
+IR (Incident Response):
+  • Incident containment
+  • Evidence preservation
+  • Remediation
+  • Post-incident analysis
+

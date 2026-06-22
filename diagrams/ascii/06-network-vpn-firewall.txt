@@ -1,0 +1,95 @@
+┌─────────────────────────────────────────────────────────────────┐
+│        NETWORK ARCHITECTURE: VPN, FIREWALL, TRUST ZONES         │
+└─────────────────────────────────────────────────────────────────┘
+
+EXTERNAL (INTERNET - UNTRUSTED ZONE)
+┌───────────────────────────────────────────┐
+│  ☁ Attackers | 🌐 Internet | 📧 Email     │
+└────────────┬────────────────────────────┘
+             │
+    ┌────────▼────────────┐
+    │ WAF / DDoS Filter   │
+    └────────┬────────────┘
+             │
+┌────────────▼────────────────────────────┐
+│ ┌─────────────────────────────────────┐ │
+│ │    FIREWALL (Edge)                  │ │
+│ │  ┌────────────────────────────────┐ │ │
+│ │  │ Ingress rules:                 │ │ │
+│ │  │ • Allow HTTPS (443)            │ │ │
+│ │  │ • Allow DNS (53)               │ │ │
+│ │  │ • Deny all other traffic       │ │ │
+│ │  └────────────────────────────────┘ │ │
+│ └─────────────────────────────────────┘ │
+└────────────┬────────────────────────────┘
+             │
+    ┌────────▼─────────────────────────┐
+    │ VPN Gateway (Remote Access)      │
+    │                                  │
+    │ 🔐 Encrypted Tunnel              │
+    │ MFA Required                     │
+    │ Split tunneling: Disabled        │
+    └────────┬──────────────────────────┘
+             │
+┌────────────▼────────────────────────────────┐
+│                                            │
+│  INTERNAL NETWORK - TRUSTED ZONE           │
+│                                            │
+│  ┌──────────────────────────────────────┐ │
+│  │ DMZ (Internet-facing servers)        │ │
+│  │ • Web servers (8.8.8.1/24)          │ │
+│  │ • DNS servers                       │ │
+│  │ • Proxy servers                     │ │
+│  └──────────────────────────────────────┘ │
+│                  │                        │
+│  ┌───────────────▼──────────────────────┐ │
+│  │ Internal Firewall (DMZ boundary)     │ │
+│  │ • Limited access to internal network│ │
+│  └───────────────┬──────────────────────┘ │
+│                  │                        │
+│  ┌───────────────▼──────────────────────┐ │
+│  │ TRUSTED INTERNAL (10.0.0.0/8)       │ │
+│  │                                     │ │
+│  │ Office subnet:    10.0.1.0/24       │ │
+│  │ Admin subnet:     10.0.2.0/24       │ │
+│  │ Server subnet:    10.0.3.0/24       │ │
+│  │ Database subnet:  10.0.4.0/24       │ │
+│  │                                     │ │
+│  │ Devices:                           │ │
+│  │ • Workstations (users)             │ │
+│  │ • Servers (production)             │ │
+│  │ • Domain controllers               │ │
+│  │ • Database servers                 │ │
+│  │ • EDR protected                    │ │
+│  │ • Full monitoring                  │ │
+│  └─────────────────────────────────────┘ │
+│                                          │
+└──────────────────────────────────────────┘
+
+TRUST ZONES:
+
+Zone 1 - EXTERNAL (🔴 RED - UNTRUSTED)
+  • Internet, attackers
+  • All traffic blocked unless explicitly allowed
+  • No direct access to internal systems
+
+Zone 2 - DMZ (🟡 YELLOW - SEMI-TRUSTED)
+  • Internet-facing servers
+  • Limited access to internal network
+  • Monitored heavily
+  • Can be compromised, won't expose internal network
+
+Zone 3 - INTERNAL (🟢 GREEN - TRUSTED)
+  • Corporate network
+  • Internal only access
+  • Higher trust level
+  • All devices monitored
+  • Segmented by function (office, admin, servers, DB)
+
+MONITORING:
+  ✓ Firewall logs (all traffic)
+  ✓ IDS/IPS (intrusion detection)
+  ✓ EDR (endpoint detection & response)
+  ✓ SIEM (security information)
+  ✓ Network TAP (traffic analysis)
+
