@@ -870,3 +870,13 @@ Progress: **23 of 28 modules complete (82%)**
 
 🎉 **5 MODULES LEFT - PRACTICAL LABS COMING!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 22: SOC Improvement & Learning](../module-22-soc-improvement-learning/index.md) |
+| **Next** | [Module 24: Beginner Practical Lab ➡️](../module-24-beginner-practical-lab/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

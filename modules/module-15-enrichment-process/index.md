@@ -872,3 +872,13 @@ Enrichment data drives verdict
 
 Progress: **15 of 28 modules complete (54%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 14: Workbooks, Playbooks & Runbooks](../module-14-workbooks-playbooks-runbooks/index.md) |
+| **Next** | [Module 16: SIEM Investigation ➡️](../module-16-siem-investigation/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

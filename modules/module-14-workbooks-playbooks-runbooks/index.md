@@ -881,3 +881,13 @@ Progress: **14 of 28 modules complete (50%)**
 
 🎉 **HALFWAY THERE! 50% COMPLETE! 🎉**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 13: Network Diagrams](../module-13-network-diagrams/index.md) |
+| **Next** | [Module 15: Enrichment Process ➡️](../module-15-enrichment-process/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

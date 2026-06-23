@@ -481,3 +481,13 @@ D) একটি incident যা escalate হয়েছে
 
 **Module 1 Complete! ✅**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | *(This is the first module)* |
+| **Next** | [Module 02: SOC Team Structure ➡️](../module-02-soc-team-structure/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

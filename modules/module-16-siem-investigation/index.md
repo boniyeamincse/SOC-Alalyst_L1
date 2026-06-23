@@ -908,3 +908,13 @@ Correlation = bigger picture
 
 Progress: **16 of 28 modules complete (57%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 15: Enrichment Process](../module-15-enrichment-process/index.md) |
+| **Next** | [Module 17: Common Alert Scenarios ➡️](../module-17-common-alert-scenarios/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

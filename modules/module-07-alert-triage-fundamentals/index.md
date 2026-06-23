@@ -1060,3 +1060,13 @@ D) Everything from raw logs
 
 Progress: **7 of 28 modules complete (25%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 06: Alert Prioritisation](../module-06-alert-prioritisation/index.md) |
+| **Next** | [Module 08: Alert Verdicts ➡️](../module-08-alert-verdicts/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

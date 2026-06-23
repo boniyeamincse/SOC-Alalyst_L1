@@ -872,3 +872,13 @@ D) Email
 - ✅ Log investigation workflow
 - ✅ Common log parsing issues
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 03: SOC Tools & Environment](../module-03-soc-tools-and-environment/index.md) |
+| **Next** | [Module 05: Alert Properties ➡️](../module-05-alert-properties/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

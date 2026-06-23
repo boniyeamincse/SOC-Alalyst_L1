@@ -1206,3 +1206,13 @@ D) যতক্ষণ না fundamental cause পাওয়া যায়
 
 Progress: **9 of 28 modules complete (32%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 08: Alert Verdicts](../module-08-alert-verdicts/index.md) |
+| **Next** | [Module 10: Identity Inventory ➡️](../module-10-identity-inventory/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

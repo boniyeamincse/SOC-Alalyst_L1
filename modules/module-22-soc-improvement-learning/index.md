@@ -897,3 +897,13 @@ Progress: **22 of 28 modules complete (79%)**
 
 🎉 **ALMOST THERE - 6 MODULES LEFT!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 21: SOC Metrics & Objectives](../module-21-soc-metrics-objectives/index.md) |
+| **Next** | [Module 23: Professional Skills & Resilience ➡️](../module-23-professional-skills-resilience/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

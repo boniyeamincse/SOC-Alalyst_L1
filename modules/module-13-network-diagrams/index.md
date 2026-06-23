@@ -880,3 +880,13 @@ D) কখনো না, অনুমতি লাগে
 
 Progress: **13 of 28 modules complete (46%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 12: Threat Intelligence Lookups](../module-12-threat-intelligence-lookups/index.md) |
+| **Next** | [Module 14: Workbooks, Playbooks & Runbooks ➡️](../module-14-workbooks-playbooks-runbooks/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

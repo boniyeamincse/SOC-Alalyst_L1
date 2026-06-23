@@ -751,3 +751,13 @@ Good luck out there! 🔒🛡️
 
 **Good luck! 🛡️**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 27: Capstone Project](../module-27-capstone-project/index.md) |
+| **Next** | *(This is the last module)* |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

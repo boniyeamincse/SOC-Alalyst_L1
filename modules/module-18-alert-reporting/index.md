@@ -856,3 +856,13 @@ D) No impact
 
 Progress: **18 of 28 modules complete (64%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 17: Common Alert Scenarios](../module-17-common-alert-scenarios/index.md) |
+| **Next** | [Module 19: Alert Escalation ➡️](../module-19-alert-escalation/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

@@ -929,3 +929,13 @@ D) Depends on analyst skill
 - ✅ Real-world prioritisation scenarios
 - ✅ Daily prioritisation workflow
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 05: Alert Properties](../module-05-alert-properties/index.md) |
+| **Next** | [Module 07: Alert Triage Fundamentals ➡️](../module-07-alert-triage-fundamentals/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

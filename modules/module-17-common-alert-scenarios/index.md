@@ -798,3 +798,13 @@ D) Close without context
 
 Progress: **17 of 28 modules complete (61%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 16: SIEM Investigation](../module-16-siem-investigation/index.md) |
+| **Next** | [Module 18: Alert Reporting ➡️](../module-18-alert-reporting/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

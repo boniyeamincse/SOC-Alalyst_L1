@@ -993,3 +993,13 @@ D) Just test device
 
 Progress: **11 of 28 modules complete (39%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 10: Identity Inventory](../module-10-identity-inventory/index.md) |
+| **Next** | [Module 12: Threat Intelligence Lookups ➡️](../module-12-threat-intelligence-lookups/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

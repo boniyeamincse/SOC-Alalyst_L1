@@ -1021,3 +1021,13 @@ D) Recorded Future
 
 Progress: **12 of 28 modules complete (43%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 11: Asset Inventory](../module-11-asset-inventory/index.md) |
+| **Next** | [Module 13: Network Diagrams ➡️](../module-13-network-diagrams/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

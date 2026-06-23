@@ -893,3 +893,13 @@ D) Firewall
 - ✅ Threat Intel reputation check করে
 - ✅ Tools কিভাবে একসাথে কাজ করে
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 02: SOC Team Structure](../module-02-soc-team-structure/index.md) |
+| **Next** | [Module 04: Events, Logs & Alerts ➡️](../module-04-events-logs-and-alerts/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

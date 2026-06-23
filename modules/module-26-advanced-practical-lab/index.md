@@ -536,3 +536,13 @@ Progress: **26 of 28 modules complete (93%)**
 
 🎉 **2 MODULES LEFT - CAPSTONE & FINAL EXAM!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 25: Intermediate Practical Lab](../module-25-intermediate-practical-lab/index.md) |
+| **Next** | [Module 27: Capstone Project ➡️](../module-27-capstone-project/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

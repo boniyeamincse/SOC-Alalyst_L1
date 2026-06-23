@@ -952,3 +952,13 @@ Frequency: Daily, Weekly, Monthly, As-needed, or Project-based
 - ✅ Career progression path
 - ✅ Team interaction workflows
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 01: Introduction to SOC](../module-01-introduction-to-soc/index.md) |
+| **Next** | [Module 03: SOC Tools & Environment ➡️](../module-03-soc-tools-and-environment/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

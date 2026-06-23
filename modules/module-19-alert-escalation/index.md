@@ -804,3 +804,13 @@ Progress: **19 of 28 modules complete (68%)**
 
 🎉 **Over 2/3 through the course!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 18: Alert Reporting](../module-18-alert-reporting/index.md) |
+| **Next** | [Module 20: SOC Communication ➡️](../module-20-soc-communication/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

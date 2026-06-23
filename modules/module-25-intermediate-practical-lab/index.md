@@ -574,3 +574,13 @@ Progress: **25 of 28 modules complete (89%)**
 
 🎉 **3 MODULES LEFT!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 24: Beginner Practical Lab](../module-24-beginner-practical-lab/index.md) |
+| **Next** | [Module 26: Advanced Practical Lab ➡️](../module-26-advanced-practical-lab/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

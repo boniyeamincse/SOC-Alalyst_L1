@@ -1064,3 +1064,13 @@ D) Firewall logs
 
 Progress: **10 of 28 modules complete (36%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 09: Investigation Methodology](../module-09-investigation-methodology/index.md) |
+| **Next** | [Module 11: Asset Inventory ➡️](../module-11-asset-inventory/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

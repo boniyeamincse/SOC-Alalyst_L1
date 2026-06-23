@@ -535,3 +535,14 @@ Progress: **27 of 28 modules complete (96%)**
 🎉 **1 MODULE LEFT - FINAL ASSESSMENT!** 🎉
 
 Continue to **Module 28: Final Assessment & Course Completion**?
+
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 26: Advanced Practical Lab](../module-26-advanced-practical-lab/index.md) |
+| **Next** | [Module 28: Final Assessment ➡️](../module-28-final-assessment/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

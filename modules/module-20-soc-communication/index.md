@@ -874,3 +874,13 @@ D) Reporting to executive
 
 Progress: **20 of 28 modules complete (71%)**
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 19: Alert Escalation](../module-19-alert-escalation/index.md) |
+| **Next** | [Module 21: SOC Metrics & Objectives ➡️](../module-21-soc-metrics-objectives/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

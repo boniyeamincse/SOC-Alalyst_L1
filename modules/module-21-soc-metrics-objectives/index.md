@@ -721,3 +721,13 @@ Progress: **21 of 28 modules complete (75%)**
 
 🎉 **3/4 THROUGH THE COURSE!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 20: SOC Communication](../module-20-soc-communication/index.md) |
+| **Next** | [Module 22: SOC Improvement & Learning ➡️](../module-22-soc-improvement-learning/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

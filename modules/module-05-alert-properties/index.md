@@ -953,3 +953,13 @@ D) শুধু LOW severity এর ক্ষেত্রে
 - ✅ Properties-based investigation checklist
 - ✅ Real-world alert examples
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 04: Events, Logs & Alerts](../module-04-events-logs-and-alerts/index.md) |
+| **Next** | [Module 06: Alert Prioritisation ➡️](../module-06-alert-prioritisation/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |

@@ -537,3 +537,13 @@ Progress: **24 of 28 modules complete (86%)**
 
 🎉 **4 MODULES LEFT!** 🎉
 
+---
+
+<!-- nav-footer -->
+## 🧭 Navigation
+
+| | |
+|---|---|
+| **Previous** | [⬅️ Module 23: Professional Skills & Resilience](../module-23-professional-skills-resilience/index.md) |
+| **Next** | [Module 25: Intermediate Practical Lab ➡️](../module-25-intermediate-practical-lab/index.md) |
+| **🏠 Course Home** | [STUDY_NOTES.md](../../STUDY_NOTES.md) |
