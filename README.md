@@ -1,6 +1,8 @@
 # SOC Level 1 Analyst Course
 
-Complete beginner-to-advanced training for SOC Level 1 analysts.
+![SOC Level 1 Analyst Course](assets/images/soc_banner.png)
+
+> Complete beginner-to-advanced training for SOC Level 1 analysts.
 
 **Language:** Bangla-English mixed | **Level:** Beginner → Advanced | **Duration:** 40+ hours
 
@@ -8,7 +10,7 @@ Complete beginner-to-advanced training for SOC Level 1 analysts.
 
 ## 📋 Quick Start
 
-1. **Start here:** [Module 1: Introduction to SOC](modules/module-01-introduction-to-soc/)
+1. **Start here:** [Module 1: Introduction to SOC](modules/module-01-introduction-to-soc/index.md)
 2. **Progress:** Complete modules 1-28 sequentially
 3. **Labs:** Practice with labs in modules 24-26
 4. **Assessment:** Final exam in module 28
@@ -55,7 +57,14 @@ Complete beginner-to-advanced training for SOC Level 1 analysts.
 
 ---
 
-#
+## 🏢 SOC Team Structure
+
+> Understanding the hierarchy of a Security Operations Center.
+
+![SOC Team Structure](assets/images/soc_team_structure.png)
+
+---
+
 ## 📊 Course Statistics
 
 | Metric | Value |
@@ -73,6 +82,14 @@ Complete beginner-to-advanced training for SOC Level 1 analysts.
 
 ---
 
+## 🔐 Core Concept: The CIA Triad
+
+> The foundation of every security decision you will make as an L1 Analyst.
+
+![CIA Triad — Core Pillars of Cybersecurity](assets/images/cia_triad.png)
+
+---
+
 ## 🎯 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -87,6 +104,14 @@ After completing this course, you will be able to:
 ✅ Understand SOC metrics and performance targets  
 ✅ Handle real-world incident scenarios  
 ✅ Apply continuous improvement mindset  
+
+---
+
+## 🔄 Alert Triage Process
+
+> The 5-step systematic process every L1 analyst follows when handling an alert.
+
+![Alert Triage Process Flow](assets/images/alert_triage_flow.png)
 
 ---
 
@@ -115,6 +140,14 @@ After completing this course, you will be able to:
 
 ---
 
+## 🌐 Threat Intelligence
+
+> Leveraging global threat feeds and intelligence sources during investigations.
+
+![Global Threat Intelligence Dashboard](assets/images/threat_intelligence.png)
+
+---
+
 ## 📖 How to Navigate
 
 ### For Learners
@@ -137,6 +170,14 @@ After completing this course, you will be able to:
 
 ---
 
+## 🖥️ SIEM Investigation
+
+> How analysts use Security Information and Event Management tools to investigate alerts.
+
+![SIEM Investigation Dashboard](assets/images/siem_investigation.png)
+
+---
+
 ## 📝 File Summary
 
 | Directory | Purpose | Status |
@@ -151,6 +192,14 @@ After completing this course, you will be able to:
 | references/ | Quick reference guides | 📋 Ready |
 | assets/ | Images & media | 📋 Ready |
 | scripts/ | Utility scripts | 📋 Ready |
+
+---
+
+## 📤 Alert Escalation Workflow
+
+> When and how to escalate alerts from L1 to L2/L3 teams.
+
+![SOC Alert Escalation Workflow](assets/images/escalation_workflow.png)
 
 ---
 
