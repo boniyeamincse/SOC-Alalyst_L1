@@ -1,7 +1,11 @@
 # 📚 SOC Level 1 Analyst — Study Notes Index
 
-> A complete index of all study notes for the SOC L1 Analyst Course.
+> A complete index of all study notes for the SOC L1 Analyst Course.  
 > Follow the modules in order for the best learning experience.
+
+---
+
+![SOC Level 1 Analyst Course](assets/images/soc_banner.png)
 
 ---
 
@@ -19,6 +23,14 @@
 
 ---
 
+## 🔐 Core Concept: The CIA Triad
+
+![CIA Triad — Core Pillars of Cybersecurity](assets/images/cia_triad.png)
+
+> **Confidentiality** · **Integrity** · **Availability** — the foundation of all security decisions you'll make as an L1 Analyst.
+
+---
+
 ## 📖 Module Study Notes
 
 ### 🔵 Phase 1 — Foundation
@@ -32,6 +44,10 @@
 | 05 | Alert Properties | [📄 Read Notes](modules/module-05-alert-properties/index.md) |
 | 06 | Alert Prioritisation | [📄 Read Notes](modules/module-06-alert-prioritisation/index.md) |
 
+#### 🏢 SOC Team Organizational Structure
+
+![SOC Team Structure](assets/images/soc_team_structure.png)
+
 ---
 
 ### 🟢 Phase 2 — Core Skills
@@ -41,6 +57,10 @@
 | 07 | Alert Triage Fundamentals | [📄 Read Notes](modules/module-07-alert-triage-fundamentals/index.md) |
 | 08 | Alert Verdicts | [📄 Read Notes](modules/module-08-alert-verdicts/index.md) |
 | 09 | Investigation Methodology | [📄 Read Notes](modules/module-09-investigation-methodology/index.md) |
+
+#### 🔄 Alert Triage Process Flow
+
+![Alert Triage Process Flow](assets/images/alert_triage_flow.png)
 
 ---
 
@@ -54,6 +74,10 @@
 | 13 | Network Diagrams | [📄 Read Notes](modules/module-13-network-diagrams/index.md) |
 | 14 | Workbooks, Playbooks & Runbooks | [📄 Read Notes](modules/module-14-workbooks-playbooks-runbooks/index.md) |
 
+#### 🌐 Threat Intelligence Dashboard
+
+![Global Threat Intelligence Dashboard](assets/images/threat_intelligence.png)
+
 ---
 
 ### 🟠 Phase 4 — Deep Investigation
@@ -63,6 +87,10 @@
 | 15 | Enrichment Process | [📄 Read Notes](modules/module-15-enrichment-process/index.md) |
 | 16 | SIEM Investigation | [📄 Read Notes](modules/module-16-siem-investigation/index.md) |
 | 17 | Common Alert Scenarios | [📄 Read Notes](modules/module-17-common-alert-scenarios/index.md) |
+
+#### 🖥️ SIEM Investigation Dashboard
+
+![SIEM Investigation Dashboard](assets/images/siem_investigation.png)
 
 ---
 
@@ -74,6 +102,10 @@
 | 19 | Alert Escalation | [📄 Read Notes](modules/module-19-alert-escalation/index.md) |
 | 20 | SOC Communication | [📄 Read Notes](modules/module-20-soc-communication/index.md) |
 | 21 | SOC Metrics & Objectives | [📄 Read Notes](modules/module-21-soc-metrics-objectives/index.md) |
+
+#### 📤 Alert Escalation Workflow
+
+![SOC Alert Escalation Workflow](assets/images/escalation_workflow.png)
 
 ---
 
